@@ -13,7 +13,7 @@ Add .env file with
 'FACEBOOK_TOKEN': 'YOUR_FACEBOOK_TOKEN',
 'VERIFY_TOKEN': 'YOUR_VERIFY_TOKEN',
 'SERVER_URL': 'https://YOUR_HOSTNAME'
-}
+
 ```
 
 ### Run
