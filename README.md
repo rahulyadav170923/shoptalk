@@ -1,5 +1,4 @@
-# Facebook Messenger Platform Sample (Python)
-https://github.com/fbsamples/messenger-platform-samples python porting version
+# Messenger Bot
 
 ### Setting
 ```
@@ -8,12 +7,12 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-### Edit config.py
+### Add .env
 ```
-CONFIG = {
-    'FACEBOOK_TOKEN': 'YOUR_FACEBOOK_TOKEN',
-    'VERIFY_TOKEN': 'YOUR_VERIFY_TOKEN',
-    'SERVER_URL': 'https://YOUR_HOSTNAME'
+Add .env file with
+'FACEBOOK_TOKEN': 'YOUR_FACEBOOK_TOKEN',
+'VERIFY_TOKEN': 'YOUR_VERIFY_TOKEN',
+'SERVER_URL': 'https://YOUR_HOSTNAME'
 }
 ```
 
