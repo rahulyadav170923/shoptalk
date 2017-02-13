@@ -10,9 +10,9 @@ pip install -r requirements.txt
 ### Add .env
 ```
 Add .env file with
-'FACEBOOK_TOKEN': 'YOUR_FACEBOOK_TOKEN',
-'VERIFY_TOKEN': 'YOUR_VERIFY_TOKEN',
-'SERVER_URL': 'https://YOUR_HOSTNAME'
+export 'FACEBOOK_TOKEN': 'YOUR_FACEBOOK_TOKEN',
+export 'VERIFY_TOKEN': 'YOUR_VERIFY_TOKEN',
+export 'SERVER_URL': 'https://YOUR_HOSTNAME'
 
 ```
 
@@ -22,4 +22,14 @@ python server.py
 
 # default web server port 8080
 ```
+
+### Delpoy on Heroku
+```
+Create a new app on heroku 
+Add the remote to the git Repo
+
+git push heroku master
+
+```
+
 
